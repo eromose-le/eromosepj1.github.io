@@ -89,5 +89,7 @@ p {
   }
   .content {
     grid-area: main;
+    margin: 0 auto;
+    max-width: 1190px;
   }
 }

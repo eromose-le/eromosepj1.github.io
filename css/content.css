@@ -5,6 +5,16 @@
   border-radius: 6px;
 }
 
+figcaption {
+  display: none;
+}
+
+#caption {
+  display: block;
+  padding: 5px 20px 0 20px;
+  opacity: 0.6;
+}
+
 #info {
   display: flex;
   align-items: center;
@@ -47,7 +57,7 @@
 .info,
 .content-paragraph,
 .content-img,
-block-quote,
+blockquote,
 .button {
   padding-left: 20px;
   padding-right: 10px;
@@ -121,7 +131,7 @@ h3 {
   .info,
   .content-paragraph,
   .content-img,
-  block-quote,
+  ,
   .button {
     padding-left: 0;
     padding-right: 0;
